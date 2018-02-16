@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114850523208848612}
   - component: {fileID: 114167859043073820}
   m_Layer: 0
-  m_Name: Block
+  m_Name: Block 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125,6 +125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.1
+  posLimit: 6
+  negLimit: -6
 --- !u!114 &114850523208848612
 MonoBehaviour:
   m_ObjectHideFlags: 1

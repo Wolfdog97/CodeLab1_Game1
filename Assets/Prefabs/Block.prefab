@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 65592683589430112}
   - component: {fileID: 23962985501782300}
   - component: {fileID: 54256498508665736}
-  - component: {fileID: 114850523208848612}
   - component: {fileID: 114167859043073820}
   m_Layer: 0
   m_Name: Block
@@ -125,18 +124,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.1
---- !u!114 &114850523208848612
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1080672845597716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e41c57e57769574cbbc252a604b321a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  victoryObj: {fileID: 1713697059353492, guid: b8565b3618ce6b34aa2f1607bbb5241c, type: 2}
-  endingGame: 0
-  endTime: 10
-  deathTime: 5
+  posLimit: 6
+  negLimit: -6
