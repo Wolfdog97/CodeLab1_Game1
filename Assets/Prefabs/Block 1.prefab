@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 23962985501782300}
   - component: {fileID: 54256498508665736}
   - component: {fileID: 114850523208848612}
-  - component: {fileID: 114167859043073820}
   m_Layer: 0
   m_Name: Block 1
   m_TagString: Untagged
@@ -113,6 +112,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!114 &114167859043073820
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -127,6 +127,8 @@ MonoBehaviour:
   moveSpeed: 0.1
   posLimit: 6
   negLimit: -6
+=======
+>>>>>>> Stashed changes
 --- !u!114 &114850523208848612
 MonoBehaviour:
   m_ObjectHideFlags: 1
