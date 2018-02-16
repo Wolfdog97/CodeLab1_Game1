@@ -19,9 +19,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4172637178389958}
-  - component: {fileID: 114843346940954224}
   - component: {fileID: 54467559875052170}
   - component: {fileID: 65711646149242578}
+  - component: {fileID: 114843346940954224}
+  - component: {fileID: 114654568429577048}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -40,7 +41,6 @@ GameObject:
   - component: {fileID: 20522411377866664}
   - component: {fileID: 124778158804395080}
   - component: {fileID: 81288516891648194}
-  - component: {fileID: 114111578460899134}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -145,12 +145,12 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1425561584313558}
   m_Enabled: 1
---- !u!114 &114111578460899134
+--- !u!114 &114654568429577048
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1425561584313558}
+  m_GameObject: {fileID: 1376890237745872}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4293c4b350e36e4a9f996f6f86decc4, type: 3}
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   throwing: 32
   throwingForce: 50
-  ballPrefab: {fileID: 1086548619697500, guid: dba9069dd7dff4745a64a12eecdc86ee, type: 2}
+  ballPrefab: {fileID: 0}
 --- !u!114 &114843346940954224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -173,7 +173,6 @@ MonoBehaviour:
   moveSpeed: 0.2
   rightKey: 100
   leftKey: 97
-  endBlock: {fileID: 0}
 --- !u!124 &124778158804395080
 Behaviour:
   m_ObjectHideFlags: 1

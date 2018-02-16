@@ -856,8 +856,20 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 114843346940954224, guid: f0c9e3f965185a346903a1d959972332,
+        type: 2}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114654568429577048, guid: f0c9e3f965185a346903a1d959972332,
+        type: 2}
+      propertyPath: ballPrefab
+      value: 
+      objectReference: {fileID: 1086548619697500, guid: dba9069dd7dff4745a64a12eecdc86ee,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 81288516891648194, guid: f0c9e3f965185a346903a1d959972332, type: 2}
+    - {fileID: 114843346940954224, guid: f0c9e3f965185a346903a1d959972332, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: f0c9e3f965185a346903a1d959972332, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1063087749
@@ -1464,6 +1476,17 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1683109378}
   m_Enabled: 1
+--- !u!114 &1683109381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683109378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7a2c56bffef1e48afdafb10ac7acf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1937502741
 GameObject:
   m_ObjectHideFlags: 0
