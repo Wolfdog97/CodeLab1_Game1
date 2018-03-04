@@ -23,5 +23,6 @@ public class Throwing : MonoBehaviour {
         GameObject ball = Instantiate(ballPrefab, transform.position, transform.rotation);
         Rigidbody rb = ball.GetComponent<Rigidbody>();
         rb.AddForce(transform.forward * throwingForce, ForceMode.VelocityChange);
+
     }
 }

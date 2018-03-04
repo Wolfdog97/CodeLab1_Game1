@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,7 +19,7 @@ public class BlockScript: MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTiggerEnter(Collider other)
     {
         Debug.Log("I got hit");
 
@@ -28,14 +28,18 @@ public class BlockScript: MonoBehaviour
         //rb.isKinematic = false;
         // rb.detectCollisions = false;
 
-        endingGame = true;
+        //endingGame = true;
 
-        Invoke("EndGame", endTime);
+        GameManager.instance.score++;
+        Destroy(other.gameObject);
+
+        //Invoke("EndGame", endTime);
+
     }
 
     public void EndGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("EndScreen");
     }
 
 }

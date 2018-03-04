@@ -22,4 +22,17 @@ public class Player : MonoBehaviour {
         }
        
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Good")
+        {
+            GameManager.instance.score++;
+            Destroy(other.gameObject);
+        }
+        else if (other.gameObject.tag == "Bad")
+        {
+            GameManager.instance.endGame();
+        }
+    }
 }

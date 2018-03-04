@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Bash.unity
     guid: 6c87fec9bdcd9144d8b3718fe28c381f
   - enabled: 1
+    path: Assets/Bash2.unity
+    guid: 30e892b2df5c179449149b3061585bbf
+  - enabled: 1
     path: Assets/EndScreen.unity
     guid: 0d78f6bcc9c2298448f2b9150f23acab
