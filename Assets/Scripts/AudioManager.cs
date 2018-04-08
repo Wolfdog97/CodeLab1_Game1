@@ -38,6 +38,7 @@ public class AudioManager : MonoBehaviour {
     void Start()
     {
         Play("Wind");
+        Debug.Log("Start is being called.");
     }
 
     public void Play(string name)
